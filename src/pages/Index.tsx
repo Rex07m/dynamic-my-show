@@ -54,7 +54,7 @@ const Index = () => {
         <div className={`container mx-auto px-6 relative z-10 text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <Badge className="mb-6 animate-fade-in" variant="outline">Available for freelance</Badge>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Hi, I'm <span className="text-gradient">Your Name</span>
+            Hi, I'm <span className="text-gradient">Pritam Kumar Das</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in">
             Full-Stack Developer & Creative Designer crafting exceptional digital experiences
@@ -171,7 +171,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>© 2024 Your Name. Built with passion and lots of coffee.</p>
+          <p>© 2024 Pritam Kumar Das. Built with passion and lots of coffee.</p>
         </div>
       </footer>
     </div>

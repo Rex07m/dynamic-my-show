@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Mail, Github, Linkedin, Code, Palette, Zap, ChevronDown } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
+import profileImage from "@/assets/profile.jpg";
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -52,6 +53,16 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
         
         <div className={`container mx-auto px-6 relative z-10 text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="mb-8 flex justify-center animate-fade-in">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full blur-2xl opacity-50 animate-pulse" />
+              <img 
+                src={profileImage} 
+                alt="Pritam Kumar Das" 
+                className="relative w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-primary/20 shadow-2xl"
+              />
+            </div>
+          </div>
           <Badge className="mb-6 animate-fade-in" variant="outline">Available for freelance</Badge>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             Hi, I'm <span className="text-gradient">Pritam Kumar Das</span>

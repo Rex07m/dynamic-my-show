@@ -163,17 +163,21 @@ const Index = () => {
           </p>
           
           <div className="flex justify-center gap-6 mb-12">
-            <Button size="lg" variant="outline" className="group">
-              <Mail className="mr-2 h-5 w-5 group-hover:text-primary transition-colors" />
-              Email Me
+            <Button size="lg" variant="outline" className="group" asChild>
+              <a href="mailto:polidas601@gmail.com">
+                <Mail className="mr-2 h-5 w-5 group-hover:text-primary transition-colors" />
+                Email Me
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="group">
               <Github className="mr-2 h-5 w-5 group-hover:text-primary transition-colors" />
               GitHub
             </Button>
-            <Button size="lg" variant="outline" className="group">
-              <Linkedin className="mr-2 h-5 w-5 group-hover:text-primary transition-colors" />
-              LinkedIn
+            <Button size="lg" variant="outline" className="group" asChild>
+              <a href="https://www.linkedin.com/in/pritam-kumar-das-ba139a295" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="mr-2 h-5 w-5 group-hover:text-primary transition-colors" />
+                LinkedIn
+              </a>
             </Button>
           </div>
         </div>

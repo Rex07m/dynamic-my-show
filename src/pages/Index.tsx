@@ -30,7 +30,7 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-gradient">Pritam Kumar Das</h1>
+          <h1 className="text-2xl font-bold text-gradient">My Portfolio</h1>
           <div className="hidden md:flex gap-8">
             <a href="#about" className="hover:text-primary transition-colors">About</a>
             <a href="#skills" className="hover:text-primary transition-colors">Skills</a>
